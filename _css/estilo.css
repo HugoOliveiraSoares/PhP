@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* Isso a globo não mostra */
+
+
+body {
+
+    background: url(_imagens/imagem.jpg) ;
+    font-family: arial, sans-serif;
+    margin: 0;/*Resetando o espaço externo da página*/
+    padding: 0; /*Resetando o espaço interno da página*/
+}
+
+div {
+    position: absolute;
+    top: 10%; /*Posição de acordo com o topo*/
+    left: 25%; /*Posição de acordo com o a esquerda*/
+    
+    width: 50%;
+    height: 400px;
+
+    background-color: #f8f8f8;
+    
+
+    box-sizing: border-box;
+    border: 1px solid white;
+
+    padding-left: 20px; /*Espaço interno a Esquerda*/
+    padding-right: 20px; /*Espaço interno a Direita*/
+    padding-bottom: 10px; /*Espaço interno Abaixo*/
+    
+}
+
+/*Formatação do titulo h1 OBS: dentro da DIV*/
+div h1
+{
+    font-size: 25px; /*Tamanho da fonte do texto*/
+    text-align: center; /*Alinhamento do texto*/
+    border-bottom: 1px solid black; /*Borda abaixo do texto*/
+
+}

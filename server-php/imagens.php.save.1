@@ -1,0 +1,14 @@
+<?php
+  $nome_arquivo = $_GET['nome'];
+  $dir = 'imagem/';
+  if (!$nome_arquivo){
+     $array_dir = scandir($dir);
+     foreach ($array_dir as $images)
+     {
+        if ($images != "." && $images != "..")
+	{
+	  echo "<img src='/imagem/$images' width=150 height=150 /
+	}
+     }
+  }
+?>
