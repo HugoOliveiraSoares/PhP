@@ -1,0 +1,4 @@
+PHP 7.2.24-0ubuntu0.18.04.3 Development Server started at Fri Mar 20 18:11:06 2020
+Listening on http://localhost:3000
+Document root is /home/hugo/Documentos/PhP/server-php
+Press Ctrl-C to quit.
